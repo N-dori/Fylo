@@ -4,10 +4,12 @@
       <img class="illustration-intro-img" src="../assets/img/illustration-intro.png">
       <h1>All your files in one secure location,
         accessible anywhere. </h1>
+        <div class="intro-subtext">
         <p>Fylo stores all your most important files in one secure location. 
           Access them whereever you need, share and collaborate with 
           friends family, and co-workers.
         </p>
+        </div>
         <button>Get Started</button>
     </div>
         <FyloServices/>

@@ -1,8 +1,33 @@
-.stay-productive-container{
+.stay-productive-container {
     display: flex;
-.stay-productive-info{
-    display: flex;
-    flex-direction: column;
-    
-}
+    margin-bottom: 179px;
+    .stay-productive-info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 115px;
+
+        h2 {
+            width: 343px;
+            margin: 0;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            text-align: left;
+        }
+        .action-link{
+            a {
+                color: #62e0d9;
+                font-family: "Open Sans - Regular";
+                
+            }
+            .dot {
+                width: 12px;
+                height: 12px;
+                box-shadow: 0 0 2px rgba(98, 224, 217, 0.81);
+                background-color: #62e0d9;
+                border-radius: 50px;
+            }
+            
+        }
+    }
 }

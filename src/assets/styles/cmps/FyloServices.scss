@@ -1,6 +1,7 @@
 .main-services-container{
     display: grid;
     grid-template-columns: 195px 1fr 195px;
+    margin-bottom: 137px;
 }
 .main-services {
     display: grid;
@@ -13,20 +14,29 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        .service-svg{
+            margin-block-end: 34px;
+        }
+        p{
+            margin: 0;
+            text-align: center;
+            font-size: 14px;
+            line-height: 21px;
+        }
     }
-    .service-card1{
+    .card1{
         grid-column: 1;
         grid-row: 1;
     }
-    .service-card2{
+    .card2{
         grid-column: 2;
         grid-row: 1;
     }
-    .service-card3{
+    .card3{
         grid-column: 1;
         grid-row: 2;
     }
-    .service-card4{
+    .card4{
         grid-column: 2;
         grid-row: 2;
     }
