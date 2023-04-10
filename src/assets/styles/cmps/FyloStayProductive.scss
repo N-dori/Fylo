@@ -1,6 +1,7 @@
 .stay-productive-container {
     display: flex;
     margin-bottom: 179px;
+
     .stay-productive-info {
         display: flex;
         flex-direction: column;
@@ -14,20 +15,34 @@
             line-height: 50px;
             text-align: left;
         }
-        .action-link{
+
+        p {
+            font-family: OpenSans;
+            font-size: 16px;
+        }
+
+        .action-link {
+            display: flex;
+            align-items: center;
+
             a {
                 color: #62e0d9;
-                font-family: "Open Sans - Regular";
-                
+                font-family: OpenSans;
+                text-decoration: underline;
+
             }
-            .dot {
-                width: 12px;
-                height: 12px;
-                box-shadow: 0 0 2px rgba(98, 224, 217, 0.81);
-                background-color: #62e0d9;
-                border-radius: 50px;
+
+            span {
+                margin-block-start: 9px;
+                margin-inline-start: 8px;
+                text-decoration: underline;
+
             }
-            
+
         }
+    }
+
+    .stay-productive-info p:first-of-type {
+        margin-block-end: 0;
     }
 }

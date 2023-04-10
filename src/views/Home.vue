@@ -16,9 +16,9 @@
         <FyloStayProductive/>
         <FyloReviews/>
         <FyloGetAccsess/>
-        <AppFooter/>
         
   </section>
+        <AppFooter/>
 
   
 </template>

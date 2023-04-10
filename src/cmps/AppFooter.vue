@@ -1,28 +1,35 @@
 <template>
- <span class="main-logo" v-html="getSvg('logo')"></span>
+<section class="main-footer">
+ <div class="main-logo" v-html="getSvg('logo')"></div>
 <div class="location">
-     <span class="location-svg" v-html="getSvg('location')"></span>
-    <p>Lorem, ipsum Rem molestiae, laudantium corporis provident nostrum natus error earum aliquam assumenda id consequuntur illum dolor sint explicabo voluptates!</p>
+     <span class="footer-svg" v-html="getSvg('location')"></span>
+    <span>Lorem, ipsum Rem molestiae, laudantium corporis provident nostrum natus error earum aliquam assumenda id consequuntur illum dolor sint explicabo voluptates!</span>
 </div>
 <div class="contacts">
-     <span class="location-svg" v-html="getSvg('phone')"></span>
+    <div class="contact-type">
+     <span class="footer-svg" v-html="getSvg('phone')"></span>
      <span>+1-525-698-5255</span>
-     <span class="location-svg" v-html="getSvg('mail')"></span>
+    </div>
+    <div class="contact-type">
+     <span class="footer-svg" v-html="getSvg('mail')"></span>
      <span>dor.nadav@gmail.com</span>
+    </div>
 </div>
 <div class="about-us">
-    <span>Abot-us</span>
-    <span>Jobs</span>
-    <span>Press</span>
-    <span>blogs</span>
+    <p>About-us</p>
+    <p>Jobs</p>
+    <p>Press</p>
+    <p>blogs</p>
 </div>
-<div class="contact">
-    <span>Privacy</span>
-    <span>Trems</span>
+<div class="privacy-terms">
+    <p>contact-us</p>
+    <p>Privacy</p>
+    <p>Trems</p>
 </div>
-<div class="social-icons">
-    
+<div class="social-icons">  
 </div>
+
+</section>
 </template>
 <script>
 import {svgService} from '../services/svg.service.js'

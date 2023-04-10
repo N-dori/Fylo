@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     gap: 40px;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
     .img-quotes {
         position: absolute;
         width: 50px;
@@ -20,12 +20,12 @@
         background-color: #202a3c;
 
         .txt {
-            font-family: "Open Sans - Regular";
+            font-family: OpenSans;
             font-size: 14px;
             margin-top: 40px;
             margin-bottom: 40px;
             margin-left: 26px;
-            margin-right: 26px;
+            margin-right: 24px;
         }
 
         .user-details {

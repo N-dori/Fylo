@@ -5,9 +5,10 @@
 }
 .main-services {
     display: grid;
-    grid-template-columns: minmax(1fr,349px) minmax(1fr,349px) ;
+    grid-template-columns: 349px 349px;
     grid-template-rows:1fr 1fr;
-    gap: 150px;
+    row-gap: 97px;
+    column-gap: 150px;
     grid-column: 2;
 
     .service-card {
@@ -22,6 +23,7 @@
             text-align: center;
             font-size: 14px;
             line-height: 21px;
+            font-family: OpenSans;
         }
     }
     .card1{

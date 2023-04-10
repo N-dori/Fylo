@@ -3,9 +3,9 @@
     <nav class="main-menu">
       <span class="main-logo" v-html="getSvg('logo')"></span>
       <div class="menu-links">
-      <RouterLink to="/car">Features</RouterLink>
-      <RouterLink to="/review">Team</RouterLink>
-      <RouterLink to="/chat">Sign In</RouterLink>
+      <RouterLink to="/">Features</RouterLink>
+      <RouterLink to="/">Team</RouterLink>
+      <RouterLink to="/">Sign In</RouterLink>
       </div>
     </nav>
   </header>

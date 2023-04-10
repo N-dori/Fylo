@@ -1,10 +1,12 @@
 .get-access {
+    position: relative;
+top: 138px;
     width: 863px;
     height: 275px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     background-color: #1b2330;
-    margin-bottom: 200px;
+  
     margin-inline-start: 50%;
     translate: -50%;
 
@@ -24,6 +26,9 @@
         font-weight: 400;
         line-height: 21px;
         text-align: center;
+        font-family: OpenSans;
+        margin-bottom: 39px;
+
     }
     input {
         /* Style for "Rectangle" */
@@ -36,6 +41,7 @@
         text-indent: 32px;
     }
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        font-family: OpenSans;
         color: lightgrey;
         opacity: 1; /* Firefox */
         margin-left: 15px;
